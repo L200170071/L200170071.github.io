@@ -1,0 +1,30 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: century gothic;
+}
+header{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("4.jpeg");
+	height: 230vh;
+	background-size: cover;
+	background-position: center;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+p{
+	list-style-type: none;
+	float: right;
+	margin-top: 20px;
+	display: inline-block;
+}
+p{
+	text-decoration: none;
+	color: white;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6%;
+}
+p:hover{
+	background-color: white;
+	color: black;
+}
